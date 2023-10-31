@@ -72,6 +72,15 @@ p {
   letter-spacing: 0.05rem;
 }
 
+.section-title{
+  font-size: 4rem;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
 /* Header Section starts here */
 #header {
   position: fixed;
@@ -447,6 +456,62 @@ p {
   z-index: -1;
 }
 
+/* End of about section */
+
+/* start of the contact section */
+#contact .contact{
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+#contact .contact-items{
+  width 100%;
+}
+
+#contact .contact-item{
+  width: 80%;
+  padding: 20px;
+  text-align:center;
+  border-radius: 10px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 18px 0 #00002c;
+  transition: 0.5s ease box-shadow;
+
+}
+
+#contact .contact-item:hover{
+  box-shadow: 0px 0px 5px 0 #00002c;
+}
+
+#contact .icon{
+  width: 70px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+#contact .contact-info{
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#contact .contact-info h1{
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#contact .contact-info h2{
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
 /* my keyframes */
 @keyframes text_reveal_box {
   50% {
@@ -512,8 +577,21 @@ p {
     padding-left: 60px;
   }
 
-  /* continue tomorrow */
+  #about .col-right{
+    text-align: left;
+    padding: 30px;
+  }
+
+  #about .col-right h1{
+    text-align: left;
+  }
+
+  .section-title span{
+    color: crimson;
+  }
 }
+  /* continue tomorrow */
+
 /* For desktop */
 @media only screen and (min-width: 1200px) {
   /* header */
