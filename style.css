@@ -368,7 +368,7 @@ p {
 
 #projects .project-img {
   flex-basis: 50%;
-  height: 300px;
+  height: 500px;
   overflow: hidden;
   position: relative;
 }
