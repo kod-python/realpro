@@ -150,15 +150,11 @@ p {
   content: attr(data-after);
   position: absolute;
   top: 50%;
-  /* removed */
-  /* letter-spacing: 0.2rem; */
-  /* text-decoration: none; */
-  /* text-transform: uppercase; */
+ 
   color: rgba(240, 248, 255, 0.021);
   padding: 20px;
   display: block;
 
-  /* added code */
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   letter-spacing: 50px;
@@ -183,8 +179,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* added code */
   z-index: 100;
   cursor: pointer;
   transform: scale(0.8);
@@ -434,7 +428,7 @@ p {
 
 #projects .project-img {
   flex-basis: 50%;
-  height: 300px;
+  height: 500px;
   overflow: hidden;
   position: relative;
 }
