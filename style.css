@@ -564,7 +564,7 @@ p {
 
 /* start of footer section */
 #footer {
-  background-color: #485563;
+  background-color: rgb(145, 76, 90);
 }
 
 #footer .footer {
@@ -575,7 +575,7 @@ p {
 }
 
 #footer h2 {
-  color: white;
+  color: black;
   font-weight: 500;
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
@@ -604,7 +604,7 @@ p {
 }
 
 #footer p {
-  color: white;
+  color: black;
   font-size: 1.3rem;
 }
 
