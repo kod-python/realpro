@@ -480,11 +480,13 @@ p {
 
 /* start of the about section */
 #about .about {
+ 
   flex-direction: column-reverse;
   text-align: center;
   max-width: 1200px;
-  margin: 0 auto;
+  margin:0  auto;
   padding: 100px 20px;
+  margin-top: -20rem ;
 }
 
 #about .col-left {
@@ -620,6 +622,7 @@ p {
 #footer .social-item img {
   filter: grayscale(1);
   transition: 0.3s ease filter;
+  width: 40px;
 }
 
 #footer .social-item:hover img {
