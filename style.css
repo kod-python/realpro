@@ -456,6 +456,26 @@ p {
   transform: scale(1.1);
 }
 
+
+#projects a{
+  color: blue;
+  font-size: 2rem;
+  text-decoration: underline;
+  transition:1s ease forwards;
+  transition-property: color;
+}
+
+#projects a:hover{
+  color: yellow;
+  
+}
+
+#projects .html-css{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+
 /* end of the project section */
 
 /* start of the about section */
@@ -473,6 +493,9 @@ p {
 }
 #about .col-right {
   width: 100%;
+}
+#about .me{
+  font-size: 1.5rem;
 }
 
 #about .col-right h2 {
