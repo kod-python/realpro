@@ -239,7 +239,7 @@ p {
 
 /* start of hero section */
 #hero {
-  background-image: url(./img/hero.jpg);
+  background-image: url(./img/Black\ Modern\ Personal\ LinkedIn\ Banner.png);
   background-size: cover;
   position: relative;
   background-position: top center;
@@ -476,7 +476,21 @@ p {
 }
 
 
+
+
 /* end of the project section */
+
+/* portfoloio2 starts here */
+
+.portfolio2{
+  margin-top: 80px;
+}
+
+.portfolio2 .html-css{
+  text-align: center;
+}
+
+/* portfolio2 ends here */
 
 /* start of the about section */
 #about .about {
